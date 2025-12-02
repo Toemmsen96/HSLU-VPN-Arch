@@ -7,6 +7,7 @@ pulsesecure package for HSLU VPN for Arch linux
 - Install by using makepkg -i
 - Install any dependencies if they are missing
 - After installation run sudo systemctl start pulsesecure or sudo systemctl enable pulsesecure
+- It might be required to run /opt/pulsesecure/bin/setup_cef.sh install for everything to work properly
 - Open PulseUI
 ## Connect
 Connect by adding https://vpn.hslu.ch if it isn't already
