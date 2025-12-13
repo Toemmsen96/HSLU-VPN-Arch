@@ -34,6 +34,6 @@ edit the script and add the location of your binary for shasum where ```SHASUM=`
 sudo systemctl start pulsesecure
 # or this to enable it for every startup:
 sudo systemctl enable pulsesecure 
-``O
-- Open PulseUI# Connect
+```
+n PulseUI# Connect
 Connect by adding https://vpn.hslu.ch if it isn't already
