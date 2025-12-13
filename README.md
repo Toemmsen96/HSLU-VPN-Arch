@@ -28,12 +28,12 @@ if that fails with the error
 edit the script and add the location of your binary for shasum where ```SHASUM=``` is defined by getting it using ```where shasum``` and entering your path 
 
 - Start pulsesecure
+
 ```sh
 # enter this for onetime start
 sudo systemctl start pulsesecure
 # or this to enable it for every startup:
 sudo systemctl enable pulsesecure 
-``-
- Open PulseUI
-## Connect
+``O
+- Open PulseUI# Connect
 Connect by adding https://vpn.hslu.ch if it isn't already
