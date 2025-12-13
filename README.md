@@ -35,5 +35,7 @@ sudo systemctl start pulsesecure
 # or this to enable it for every startup:
 sudo systemctl enable pulsesecure 
 ```
-n PulseUI# Connect
+- Open PulseUI
+
+# Connect
 Connect by adding https://vpn.hslu.ch if it isn't already
