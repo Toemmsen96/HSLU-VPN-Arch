@@ -21,7 +21,7 @@ pkgdesc='Ivanti Secure Access Client for HSLU'
 arch=(x86_64)
 license=(custom)
 url='https://www.pulsesecure.net/'
-depends=(gcc-libs libgnome-keyring openssl curl dbus libbsd dmidecode gtkmm3 webkit2gtk-4.1 psmisc libsoup)
+depends=(gcc-libs gnome-keyring openssl curl dbus libbsd dmidecode gtkmm3 webkit2gtk-4.1 psmisc libsoup3)
 install=${pkgname}.install
 source=(EULA.txt
         "$_ubuntu_webkit/$_webkit_deb"

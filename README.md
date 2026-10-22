@@ -70,10 +70,11 @@ sudo /opt/pulsesecure/bin/setup_cef.sh install
 ### Test the UI
 
 ```sh
-/opt/pulsesecure/bin/pulseUI
+/opt/pulsesecure/bin/pulseUI.webkit41
 ```
 
 > **Note:** `pulseUI` requires the `pulsesecure` service to be running, otherwise it will fail with DBus errors. Start the service first.
+> naming for `pulseUI.webkit41` may change in future versions. If not found, navigate to `/opt/pulsesecure/bin/` and choose an applicable `pulseUI`.
 
 ## Connect
 
